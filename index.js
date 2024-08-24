@@ -2,7 +2,7 @@ const Joi= require('joi')
 const express = require('express')
 const app = express();
 app.use(express.json());
-const PORT =process.env.PORT || 8000;
+const PORT =process.env.PORT || 3000;
 const employees = [
 
     {name: 'Dora' , id:1,position:'Main Manager',salary:5600},
